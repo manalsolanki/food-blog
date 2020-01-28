@@ -1,3 +1,7 @@
+:root{
+    --accent-col:#b3583d;
+    --primary-font: helvetica,arial;
+}
 body{
     font-weight: normal;
     font-style: normal;
@@ -7,43 +11,77 @@ body{
     background-color: rgb(190, 255, 237);
    
 }
+.box{ 
+    margin: 0em auto;/* to create space btw elemwnt n mostly used vertically*/
+    border : 0.05em solid rebeccapurple;
+    border-radius: 2em;
+    margin: auto;
+    max-width:80%;
+    padding: 1em;
+}
 .logo{
     max-height: 78px;
     max-width: 78px;
-   
-}
-.image{
-    width: auto;
-    max-height: 100%;
-    max-width: 100%;
+    /*background-color: darkgoldenrod;*/
 }
 .main-heading{
     font-size: 2.5em;
     font-style: oblique;
-    color: #b3583d;
+    color:var(--accent-col);
     text-align: center;
+}
+.image{
+    width: auto;
+    max-height: 100%;
+    max-width:100%;
+    line-height: 0;
+}
 
+.navigation-bar{
+    background-color:var(--accent-col);
+}
+.list-of-items{
+    text-align: right;
+    padding: 0.1em;;
+}
+.item{
+    display: inline;
+    // background-color: brown;
+ }
+ .links{
+    background-color:#00ffea;
+    display: inline-block;
+    padding:0.5em;
 }
 .align{
     text-align: center;
     padding: 0em;
-    
 }
-
 .social-logo{
     max-height: 45px;
     max-width: 50px;
 
 }
-:root{
-    --accent-col: coral;
-    --primary-font: helvetica,arial;
+.story-image{
+    width: auto;
+    max-height: 100%;
+    max-width: 100%;
 }
-.box{
-    
-     margin: 0em auto;/* to create space btw elemwnt n mostly used vertically*/
-    border : 0.05em solid rebeccapurple;
-    border-radius: 2em;
-    margin: 5%;
-    padding: 1em;
+.story-overview{
+    display: flex;
+    background-color:#d9eba0;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.flex-items{
+    flex-basis: calc(100%/2);
+    align-self: center;
+}
+.heading-flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.background-color{
+    background-color: #d9eba0;
 }
