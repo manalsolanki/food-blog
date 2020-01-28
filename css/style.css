@@ -1,0 +1,49 @@
+body{
+    font-weight: normal;
+    font-style: normal;
+    font-size: 1em;
+    line-height: 1.4;
+    font-family: sans-serif;
+    background-color: rgb(190, 255, 237);
+   
+}
+.logo{
+    max-height: 78px;
+    max-width: 78px;
+   
+}
+.image{
+    width: auto;
+    max-height: 100%;
+    max-width: 100%;
+}
+.main-heading{
+    font-size: 2.5em;
+    font-style: oblique;
+    color: #b3583d;
+    text-align: center;
+
+}
+.align{
+    text-align: center;
+    padding: 0em;
+    
+}
+
+.social-logo{
+    max-height: 45px;
+    max-width: 50px;
+
+}
+:root{
+    --accent-col: coral;
+    --primary-font: helvetica,arial;
+}
+.box{
+    
+     margin: 0em auto;/* to create space btw elemwnt n mostly used vertically*/
+    border : 0.05em solid rebeccapurple;
+    border-radius: 2em;
+    margin: 5%;
+    padding: 1em;
+}
